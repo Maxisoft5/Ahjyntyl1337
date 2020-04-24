@@ -41,8 +41,8 @@ body {
 .logo_img {
     width: 90px;
     height: 90px;
-    top: 42.5%;
-    left: 44.5%;
+    top: 40.5%;
+    left: 34.5%;
     background-image: url(../img/vinyl5.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -62,7 +62,15 @@ body {
     box-shadow: 4px 7px 6px rgba(0, 0, 0, 0.9);
 }
 
-.shadow {
-    background-color: pink;
-    opacity: 1;
-}
+  .stick {
+        width: 120px;
+        height: 120px;
+        background-color: #999;
+        border-radius: 50%;
+        border: 2.5px solid #000;
+        box-shadow: 2px 7px 6px rgba(0, 0, 0, 0.9);
+        position: absolute;
+        z-index: 1;
+        top: 8%;
+        right: 100px;
+    }
